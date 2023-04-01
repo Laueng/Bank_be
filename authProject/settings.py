@@ -72,6 +72,8 @@ REST_FRAMEWORK ={
             )
 }
 
+AUTH_USER_MODEL = 'authApp.User'
+
 ROOT_URLCONF = 'authProject.urls'
 
 TEMPLATES = [
@@ -98,8 +100,12 @@ WSGI_APPLICATION = 'authProject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'fintech_purpose_bank',
+        'USER': 'fintech_purpose_bank_user',
+        'PASSWORD': '8nxegeb80IaxRBiN9DzMz01pJhXpFD0u',
+        'HOST': 'dpg-cgfna54eoogqfc68s3og-a',
+        'PORT': '5432',
     }
 }
 
