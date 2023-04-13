@@ -104,7 +104,7 @@ DATABASES = {
         'NAME': 'fintech_purpose_bank',
         'USER': 'fintech_purpose_bank_user',
         'PASSWORD': '8nxegeb80IaxRBiN9DzMz01pJhXpFD0u',
-        'HOST': 'dpg-cgfna54eoogqfc68s3og-a',
+        'HOST': 'dpg-cgfna54eoogqfc68s3og-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
 }
